@@ -65,7 +65,7 @@ func main() {
 		passphrase := os.Args[2]
 		webServer(port, passphrase)
 	} else {
-		fmt.Println("Usage: server_test.exe <listen_port> <decryption_passphrase>")
+		fmt.Println("Usage: server_decrypt.exe <listen_port> <decryption_passphrase>")
 		os.Exit(1)
 	}
 }
